@@ -30,4 +30,36 @@ console.log(document.querySelector(".box").attributes)
 console.log(document.querySelector(".box").dataset)
 */
 
-console.log("hello world")
+// console.log("hello world")
+// let aarush=document.createElement("div")
+// aarush.innerHTML="<b>inserted div</b>"
+// aarush.setAttribute("class","created")
+// // document.querySelector(".container").append(aarush)
+// // document.querySelector(".container").prepend(aarush)
+// // document.querySelector(".container").before(aarush)
+// document.querySelector(".container").after(aarush)
+
+
+let div2 = document.createElement("div")
+div2.innerHTML = "<b>insert via insert method</b>"
+
+let cont = document.querySelector(".container")
+
+cont.insertAdjacentHTML("beforeend","<b>insert via insert method</b>\n")
+cont.insertAdjacentText("beforeend","\n<b>insert via insert method</b>")
+cont.insertAdjacentElement("beforeend",div2)
+
+// // document.querySelector(".box").remove()
+
+// console.log(document.querySelector(".container").classList.add("blue"))
+// // console.log(document.querySelector(".container").classList)
+// console.log(document.querySelector(".container").classList.remove("red"))
+
+// console.log(document.querySelector(".container").classList.add("blue"))
+// console.log(document.querySelector(".container").classList.add("blue"))
+// console.log(document.querySelector(".container").classList.add("blue"))
+// console.log(document.querySelector(".container").classList.add("blue"))
+// console.log(document.querySelector(".container").classList)
+
+// document.querySelector(".container").classList.toggle("blue")
+// document.querySelector(".container").classList.toggle("blue")
