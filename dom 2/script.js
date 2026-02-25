@@ -10,9 +10,9 @@ document.getElementById("greenbox").style.backgroundColor = "green"
 
 // //console.log(document.querySelectorAll(".box")).style.backgroundColor = "blue"
 
-// document.querySelectorAll(".box").forEach(e=>{
-//     e.style.backgroundColor = "purple"
-// })
+document.querySelectorAll(".box").forEach(e=>{
+    e.style.backgroundColor = "purple"
+})
 
 // console.log(document.getElementsByTagName("div"))
 
