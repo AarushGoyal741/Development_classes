@@ -1,0 +1,22 @@
+.container{
+    background-color: red;
+    padding: 14px;
+    margin: 14px;
+
+}
+
+.childContainer{
+    background-color: orange;
+    padding: 14px;
+    margin: 14px;
+    
+}
+
+.child{
+    background-color: yellow;
+    padding: 14px;
+    margin: 14px;
+    border: 2px solid black;
+    cursor: pointer;
+    
+}
